@@ -4,7 +4,7 @@
   background-image: linear-gradient(to right bottom,
       rgba($color-primary-light, 0.6),
       rgba($color-primary-dark, 0.6)),
-    url("..landing-page/img/header-pic.jpg");
+    url("/landing-page/img/header-pic.jpg");
   background-size: cover;
   background-position: top;
 
@@ -19,7 +19,7 @@
     background-image: linear-gradient(to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-      url("..landing-page/img/hero.jpg");
+      url("/landing-page/img/hero.jpg");
   }
 
   @include respond(phone) {

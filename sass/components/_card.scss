@@ -33,21 +33,21 @@
       background-image: linear-gradient(to right bottom,
           $color-green-light-1,
           $color-green-light-2),
-        url(/landing-page/img/josue-isai-ramos-figueroa-Pj4je7OjrME-unsplash.jpg);
+        url("/landing-page/img/josue-isai-ramos-figueroa-Pj4je7OjrME-unsplash.jpg");
     }
 
     &--2 {
       background-image: linear-gradient(to right bottom,
           $color-primary-light,
           $color-primary-dark),
-        url(/landing-page/img/anthony-fomin-sTw2KYpoujk-unsplash.jpg);
+        url("/landing-page/img/anthony-fomin-sTw2KYpoujk-unsplash.jpg");
     }
 
     &--3 {
       background-image: linear-gradient(to right bottom,
           $color-tertiary-light,
           $color-tertiary-dark),
-        url(/landing-page/img/callum-hill-oamw52SCGi0-unsplash.jpg);
+        url("/landing-page/img/callum-hill-oamw52SCGi0-unsplash.jpg");
     }
   }
 
