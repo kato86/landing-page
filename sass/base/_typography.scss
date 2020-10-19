@@ -22,7 +22,7 @@ body {
     animation: moveInLeft 2s ease-out;
 
     @include respond(phone) {
-      letter-spacing: 1rem;
+      letter-spacing: .7rem;
       font-size: 5rem;
     }
   }
@@ -38,6 +38,7 @@ body {
       letter-spacing: 0.5rem;
     }
   }
+
 }
 
 .heading-secondary {

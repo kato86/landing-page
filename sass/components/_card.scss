@@ -189,4 +189,10 @@
     transform: translateY(-1.5rem) scale(1.03);
     box-shadow: 0px 5px 12px #ccc;
   }
+
+  @include respond(phone) {
+    width: 80%;
+    margin: auto;
+  }
+
 }

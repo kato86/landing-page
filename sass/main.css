@@ -166,7 +166,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
-    letter-spacing: 1rem;
+    letter-spacing: .7rem;
     font-size: 5rem;
   }
 }
@@ -613,6 +613,13 @@ body {
           box-shadow: 0px 5px 12px #ccc;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .card {
+    width: 80%;
+    margin: auto;
+  }
+}
+
 .composition {
   position: relative;
 }
@@ -726,6 +733,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .feature-box {
+    padding: 1rem;
+  }
+}
+
 .feature-box--icons {
   width: 50%;
   margin-bottom: 0.5rem;
@@ -744,6 +757,12 @@ body {
   font-size: 1.4rem;
   padding: 10px;
   border-top: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .feature-box--text {
+    padding: 5px;
+  }
 }
 
 .feature-box:hover {

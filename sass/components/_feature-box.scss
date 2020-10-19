@@ -15,6 +15,11 @@
     padding: 2rem;
   }
 
+  @include respond(phone) {
+    padding: 1rem;
+  }
+
+
   &--icons {
     width: 50%;
     margin-bottom: 0.5rem;
@@ -31,6 +36,11 @@
     font-size: 1.4rem;
     padding: 10px;
     border-top: 1px solid #ccc;
+
+    @include respond(phone) {
+      padding: 5px;
+    }
+
   }
 
   &:hover {
