@@ -1,0 +1,39 @@
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color-white, 0.8);
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  transition: transform 0.3s;
+  height: 50%;
+
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
+
+  &--icons {
+    width: 50%;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    padding: 10px;
+
+    @include respond(tab-port) {
+      margin-bottom: 0;
+      width: 18%;
+    }
+  }
+
+  &--text {
+    font-size: 1.4rem;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+}
